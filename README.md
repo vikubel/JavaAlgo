@@ -1,4 +1,4 @@
 JavaAlgo
 ========
 
-This repo contains code for project Java Algorithms. A abstract way to use all possible algorithms
+This repo contains code for project Java Algorithms. An abstract way to use all possible algorithms
