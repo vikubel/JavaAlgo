@@ -1,5 +1,6 @@
 package com.learn.algo;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +34,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        App app=new App();
+        app.setTest("three");
+        Assert.assertEquals(app.getTest(), "three");
     }
 }
